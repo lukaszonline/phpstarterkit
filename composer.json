@@ -1,0 +1,26 @@
+{
+    "name": "lukaszonline/phpstarterkit",
+    "description": "Starter Kit for PHP-based projects.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukasz Jaworski",
+            "email": "hello@lukasz.online",
+            "homepage": "https://lukasz.online"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpStarterKit\\": "src/class"
+        },
+        "files": [
+            "src/bootloader.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
